@@ -73,12 +73,3 @@
 // console.log(text.match(regex2, 'From regex 2'));
 
 
-
-
-
-
-// const text = "Mijanur Rahman";
-// const regex = /\w/g;
-// console.log(text.match(regex));
-
-// Something added
