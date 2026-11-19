@@ -42,18 +42,40 @@
 
 
 
-// Increment 
-let x = 3;
-let y = x++;
+// // Increment 
+// let x = 3;
+// let y = x++;
 
 
 
-console.log(`x:${x}, y:${y}`);
-// Expected output: "x:4, y:3"
+// console.log(`x:${x}, y:${y}`);
+// // Expected output: "x:4, y:3"
 
 
 
-let a = 3;
-let b = ++a;
+// let a = 3;
+// let b = ++a;
 
-console.log(`a:${a}, b:${b}`);
+// console.log(`a:${a}, b:${b}`);
+
+
+
+
+
+
+
+
+// Decrement
+
+let c = 4;
+let d = c--
+
+console.log(`c:${c}, d:${d}`);
+  // Expected output: "x:2, y:3"
+
+
+
+  let e = 7;
+  let f = --e;
+
+  console.log(`e:${e}, f:${f}`)
