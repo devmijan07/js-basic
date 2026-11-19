@@ -1,3 +1,3 @@
 let permission = 5;
 
-console.log(permission);
+console.log(permission, "Updeted");
