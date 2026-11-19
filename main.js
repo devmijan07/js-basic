@@ -74,3 +74,7 @@ let firstProduct = products[index++];
 let secondProduct = products[index++];
 console.log(firstProduct, secondProduct);
 
+let permission = 5;
+
+console.log(permission, "Updeted");
+console.log('Somethig added')
