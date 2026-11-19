@@ -67,15 +67,34 @@
 
 // Decrement
 
-let c = 4;
-let d = c--
+// let c = 4;
+// let d = c--
 
-console.log(`c:${c}, d:${d}`);
-  // Expected output: "x:2, y:3"
+// console.log(`c:${c}, d:${d}`);
+//   // Expected output: "x:2, y:3"
 
 
 
-  let e = 7;
-  let f = --e;
+//   let e = 7;
+//   let f = --e;
 
-  console.log(`e:${e}, f:${f}`)
+//   console.log(`e:${e}, f:${f}`)
+
+
+
+
+
+
+
+// Unary negation (-) operator
+const x = 4;
+const y = -x;
+
+console.log(y);
+// Expected output: -4
+
+const a = "4";
+const b = -a;
+
+console.log(b);
+// Expected output: -4
