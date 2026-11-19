@@ -36,3 +36,24 @@
 // console.log(Infinity % 2)
 // console.log(Infinity % Infinity)
 // console.log(4 % Infinity)
+
+
+
+
+
+
+// Increment 
+let x = 3;
+let y = x++;
+
+
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+
+
+let a = 3;
+let b = ++a;
+
+console.log(`a:${a}, b:${b}`);
