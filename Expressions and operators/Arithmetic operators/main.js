@@ -6,8 +6,10 @@
 
 // Coercion in JavaScript
 let x;
-console.log(x)
+console.log(x, typeof x)
 
+x = 8;
+console.log(x, typeof x)
 
 
 
