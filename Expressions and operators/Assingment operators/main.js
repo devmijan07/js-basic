@@ -10,3 +10,23 @@
 // const student = new Student();
 
 // console.log(student.#name);
+
+// const x = y = 5;
+// console.log(y)
+
+
+// let x = 5;
+// let y = 10;
+// let z = 25;
+
+// x = y; // x is 10
+// x = y = z; // x, y and z are all 25
+// console.log(x, y, z)
+
+
+
+
+let x;
+console.log(x); // undefined
+console.log(x = 2); // 2
+console.log(x); // 2
