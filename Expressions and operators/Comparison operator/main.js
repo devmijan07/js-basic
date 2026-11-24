@@ -29,14 +29,26 @@
 
 
 
-console.log(1 === 1);
-// Expected output: true
+// console.log(1 === 1);
+// // Expected output: true
 
-console.log("hello" === "hello");
-// Expected output: true
+// console.log("hello" === "hello");
+// // Expected output: true
 
-console.log("1" === 1);
-// Expected output: false
+// console.log("1" === 1);
+// // Expected output: false
 
-console.log(0 === false);
-// Expected output: false
+// console.log(0 === false);
+// // Expected output: false
+
+
+
+
+
+// Grater Than operator
+// console.log(3 >2)
+// console.log(3n > 3)
+// console.log('ABN' > 'abn')
+
+
+
