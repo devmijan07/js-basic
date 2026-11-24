@@ -92,8 +92,3 @@
 // // Expected output: true
 
 
-
-
-// BigInt operator
-const a = 6n / 2n;
-console.log(a)
