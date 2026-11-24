@@ -26,7 +26,12 @@
 
 
 
-let x;
-console.log(x); // undefined
-console.log(x = 2); // 2
-console.log(x); // 2
+// let x;
+// console.log(x); // undefined
+// console.log(x = 2); // 2
+// console.log(x); // 2
+
+
+// globalThis
+
+console.log(globalThis.String('s'))
