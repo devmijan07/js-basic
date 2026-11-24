@@ -77,16 +77,23 @@
 
 
 
-// Less than or equal operator
-console.log(5 <= 3);
-// Expected output: false
+// // Less than or equal operator
+// console.log(5 <= 3);
+// // Expected output: false
 
-console.log(3 <= 3);
-// Expected output: true
+// console.log(3 <= 3);
+// // Expected output: true
 
-// Compare bigint to number
-console.log(3n <= 5);
-// Expected output: true
+// // Compare bigint to number
+// console.log(3n <= 5);
+// // Expected output: true
 
-console.log("aa" <= "ab");
-// Expected output: true
+// console.log("aa" <= "ab");
+// // Expected output: true
+
+
+
+
+// BigInt operator
+const a = 6n / 2n;
+console.log(a)
