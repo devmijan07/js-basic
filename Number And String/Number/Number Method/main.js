@@ -148,3 +148,16 @@
 // }
 
 // console.log(exp(6))
+
+
+
+
+
+// // toFixed method
+
+
+// function financial(x) {
+//     return Number.parseFloat(x).toFixed(3);
+// }
+
+// console.log(financial(4.63542434))
