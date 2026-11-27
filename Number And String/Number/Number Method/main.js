@@ -73,18 +73,48 @@
 
 
 
-// isNun
-function typeOfNaN(x) {
-  if (Number.isNaN(x)) {
-    return "Number NaN";
-  }
-  if (isNaN(x)) {
-    return "NaN";
-  }
-}
+// // isNun
+// function typeOfNaN(x) {
+//   if (Number.isNaN(x)) {
+//     return "Number NaN";
+//   }
+//   if (isNaN(x)) {
+//     return "NaN";
+//   }
+// }
 
-console.log(typeOfNaN("100F"));
-// Expected output: "NaN"
+// console.log(typeOfNaN("100F"));
+// // Expected output: "NaN"
 
-console.log(typeOfNaN(NaN));
-// Expected output: "Number NaN"
+// console.log(typeOfNaN(NaN));
+// // Expected output: "Number NaN"
+
+
+
+
+
+
+
+// // isSafeInteger
+// function warn(x) {
+//     if (Number.isSafeInteger(x)) {
+//         return 'Precision may be lost'
+//     }
+
+//     return "Precision safe";
+// }
+
+// console.log(warn(2 ** 53 - 135809458));
+
+
+
+
+// function warn(x) {
+//     if (Number.isSafeInteger(x)) {
+//         console.log('Precision may be lost') 
+//     }
+
+//     return "Precision safe";
+// }
+
+// console.log(warn(2 ** 53 - 135809458));
