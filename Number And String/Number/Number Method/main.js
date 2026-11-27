@@ -118,3 +118,33 @@
 // }
 
 // console.log(warn(2 ** 53 - 135809458));
+
+
+
+
+
+
+
+
+
+// // Exponential method
+// function expo(x, f) {
+//   return Number.parseFloat(x).toExponential(f);
+// }
+
+// console.log(expo(123456567567, 4));
+// // Expected output: "1.23e+5"
+
+// console.log(expo("123456567567"));
+// // Expected output: "1.23456e+5"
+
+// console.log(expo("oink"));
+// // Expected output: "NaN"
+
+
+
+// function exp(x, y) {
+//     return Number.parseFloat(x).toExponential()
+// }
+
+// console.log(exp(6))
