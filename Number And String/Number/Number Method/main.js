@@ -47,25 +47,44 @@
 
 
 
-console.log(Number.isInteger(0)); // true
-console.log(Number.isInteger(1)); // true
-console.log(Number.isInteger(-100000)); // true
-console.log(Number.isInteger(99999999999999999999999)); // true
+// console.log(Number.isInteger(0)); // true
+// console.log(Number.isInteger(1)); // true
+// console.log(Number.isInteger(-100000)); // true
+// console.log(Number.isInteger(99999999999999999999999)); // true
 
-console.log(Number.isInteger(0.1)); // false
-console.log(Number.isInteger(Math.PI)); // false
+// console.log(Number.isInteger(0.1)); // false
+// console.log(Number.isInteger(Math.PI)); // false
 
-console.log(Number.isInteger(NaN)); // false
-console.log(Number.isInteger(Infinity)); // false
-console.log(Number.isInteger(-Infinity)); // false
-console.log(Number.isInteger("10")); // false
-console.log(Number.isInteger(true)); // false
-console.log(Number.isInteger(false)); // false
-console.log(Number.isInteger([1])); // false
+// console.log(Number.isInteger(NaN)); // false
+// console.log(Number.isInteger(Infinity)); // false
+// console.log(Number.isInteger(-Infinity)); // false
+// console.log(Number.isInteger("10")); // false
+// console.log(Number.isInteger(true)); // false
+// console.log(Number.isInteger(false)); // false
+// console.log(Number.isInteger([1])); // false
 
-console.log(Number.isInteger(5.0)); // true
-console.log(Number.isInteger(5.000000000000001)); // false
-console.log(Number.isInteger(5.0000000000000001)); // true, because of loss of precision
-console.log(Number.isInteger(4500000000000000.1)); // true, because of loss of precision
-console.log(5.00000000000000001 === 5);
-console.log(Number.isInteger(9007199254740991));
+// console.log(Number.isInteger(5.0)); // true
+// console.log(Number.isInteger(5.000000000000001)); // false
+// console.log(Number.isInteger(5.0000000000000001)); // true, because of loss of precision
+// console.log(Number.isInteger(4500000000000000.1)); // true, because of loss of precision
+// console.log(5.00000000000000001 === 5);
+// console.log(Number.isInteger(9007199254740991));
+
+
+
+
+// isNun
+function typeOfNaN(x) {
+  if (Number.isNaN(x)) {
+    return "Number NaN";
+  }
+  if (isNaN(x)) {
+    return "NaN";
+  }
+}
+
+console.log(typeOfNaN("100F"));
+// Expected output: "NaN"
+
+console.log(typeOfNaN(NaN));
+// Expected output: "Number NaN"
