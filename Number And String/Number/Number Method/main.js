@@ -161,3 +161,18 @@
 // }
 
 // console.log(financial(4.63542434))
+
+
+
+
+
+
+
+// // toPrecision
+
+// function precise(x) {
+//     return Number.parseFloat(x).toPrecision(3)
+// }
+
+
+// console.log(precise(222222222222222))
