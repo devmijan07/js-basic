@@ -9,3 +9,12 @@
 // console.log(parseFloat(flolatingNumber))
 
 // console.log(Number.parseFloat === parseFloat)
+
+
+
+
+
+
+// // Number.parseInt() method
+// const pixel = '10.5px';
+// console.log(parseInt(pixel))
